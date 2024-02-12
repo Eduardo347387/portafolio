@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./_heroStyles.scss']
 })
 export class HeroComponent {
-
+  
+  frontend:string = '<Frontend Developer/>'
 }

@@ -1,0 +1,13 @@
+.photo{
+   &::before{
+    position: absolute;
+    content: '';
+    top: 0rem;
+    left: 0;
+    width: 20rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: 4rem 2.1rem;
+    background-image: url(../../../assets/img/Foto.png);
+   }
+}
