@@ -40,8 +40,8 @@ lg:pl-24 xl:pl-[10rem] screen1300px:translate-y-[43rem] 2xl:grid 2xl:grid-cols-2
         <div class="mt-10 grid grid-cols-1 gap-y-8 place-items-center min-[709px]:grid-cols-2
         screen1000px:grid-cols-3 2xl:grid-cols-4">
             <ng-container *ngFor="let project of listProjects">
-                <a [href]="project.liveSite" target="_blank" class="w-[90%] bg-slate-800 rounded-lg overflow-hidden drop-shadow-md
-                screen1000px:hover:bg-[#00000046]" >
+                <div (click)="liveSite(project.liveSite)" class="w-[90%] bg-slate-800 rounded-lg overflow-hidden drop-shadow-md
+                screen1000px:cursor-pointer screen1000px:hover:bg-[#00000046]" >
                 
                     <img class="object-cover" src="{{project.img}}" alt="Projet 1">
                 
@@ -87,7 +87,7 @@ lg:pl-24 xl:pl-[10rem] screen1300px:translate-y-[43rem] 2xl:grid 2xl:grid-cols-2
                             </a>
                         </div>
                     </div>
-                </a>
+                </div>
             </ng-container>
         </div>
    </div>

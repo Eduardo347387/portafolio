@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
-import { networks, project, skills } from 'src/app/interfaces/data';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
+import { project, skills } from 'src/app/interfaces/data';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: []
 })
 export class ContentComponent {
+  private router = inject(Router)
 
   listSkills: skills[] = [
     {
@@ -129,4 +131,8 @@ export class ContentComponent {
     } 
   ]
 
+  liveSite(url: string) {
+    console.log(url)
+     window.open(url, '_blank');
+  }
 }
