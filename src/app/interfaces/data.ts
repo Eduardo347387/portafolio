@@ -5,10 +5,16 @@ export interface skills {
 }
 
 export interface project {
-    img: string,
+    img: string
     name: string
     description: string
     skills: skills[]
     gitHub: string
     liveSite:string
+}
+
+export interface networks {
+    path: string
+    name: string
+    link:string
 }

@@ -11,3 +11,30 @@
     background-image: url(../../../assets/img/Foto.png);
    }
 }
+
+@media(min-width:555px){
+   .photo{
+      &::before{
+         margin-top: 1.2rem;
+         background-size: cover;
+      }
+   }
+}
+
+@media(min-width:1000px){
+   .photo{
+      &::before{
+         width: 28rem;
+         height: 28rem;
+      }
+   }
+}
+
+@media(min-width:1300px){
+   .photo{
+      &::before{
+         width: 39rem;
+         height: 39rem;
+      }
+   }
+}

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { project, skills } from 'src/app/interfaces/data';
+import { networks, project, skills } from 'src/app/interfaces/data';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
@@ -57,10 +57,76 @@ export class ContentComponent {
     {
       img: '../../../assets/img/project.png',
       name: 'Page Countrys API',
-      description: 'Listado de paises utilizando una API',
+      description: `Listado de paises utilizando una API Implementando
+      funcionalidades como buscador, clasificador, filtro y paginador.`,
       skills: [this.listSkills[6], this.listSkills[7], this.listSkills[2]],
       gitHub: 'https://github.com/Eduardo347387/pageCountries',
       liveSite: 'https://page-countries.netlify.app/'
-    }
+    },
+    {
+      img: '../../../assets/img/project1.png',
+      name: 'Multi-step form',
+      description: 'Formulario que se divide en multiples pasos.',
+      skills: [this.listSkills[6], this.listSkills[7], this.listSkills[2]],
+      gitHub: 'https://github.com/Eduardo347387/multi-form',
+      liveSite: 'https://multiform49201212.netlify.app/'
+    },
+     {
+      img: '../../../assets/img/project8.png',
+      name: 'Tip calculator app',
+      description: 'Calculadora que indica cuanto debe pagar cada persona incluyecto propina.',
+      skills: [this.listSkills[0], this.listSkills[2], this.listSkills[5]],
+      gitHub: 'https://github.com/Eduardo347387/Tip-calculator-app',
+      liveSite: 'https://golden-mochi-8f4c71.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project7.png',
+      name: 'Interactive pricing component',
+      description: 'Componente interactivo que indica precios basandose en el trafico',
+      skills: [this.listSkills[0], this.listSkills[2], this.listSkills[5]],
+      gitHub: 'https://github.com/Eduardo347387/Interactive-pricing-component',
+      liveSite: 'https://ubiquitous-dieffenbachia-1bc068.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project2.png',
+      name: 'Fylo dark theme landing page',
+      description: 'Landing page modo oscuro',
+      skills: [this.listSkills[0], this.listSkills[2]],
+      gitHub: 'https://github.com/Eduardo347387/Fylo-dark-theme-landing-page',
+      liveSite: 'https://capable-heliotrope-a8852e.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project3.png',
+      name: 'Adminitrador de citas',
+      description: 'Administrador de citas de una veterinaria.',
+      skills: [this.listSkills[0], this.listSkills[1], this.listSkills[5], this.listSkills[4]],
+      gitHub: 'https://github.com/Eduardo347387/administrador-citas',
+      liveSite: 'https://tranquil-sprinkles-704001.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project5.png',
+      name: 'Chat app CSS illustration',
+      description: 'Ilustracion de una aplicacion de chat creado con CSS3.',
+      skills: [this.listSkills[0], this.listSkills[1]],
+      gitHub: 'https://github.com/Eduardo347387/Chat-app-CSS-illustration',
+      liveSite: 'https://harmonious-faloodeh-7252d1.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project6.png',
+      name: 'Insure landing page',
+      description: 'Pagina que ofrece servicios de seguro de vida.',
+      skills: [this.listSkills[0], this.listSkills[2], this.listSkills[5]],
+      gitHub: 'https://github.com/Eduardo347387/Insure-landing-page',
+      liveSite: 'https://jolly-nougat-a84c17.netlify.app/'
+    },
+    {
+      img: '../../../assets/img/project4.png',
+      name: 'Adminitrador de gastos',
+      description: 'Adminitrador de gastos semanales',
+      skills: [this.listSkills[0], this.listSkills[1], this.listSkills[5], this.listSkills[4]],
+      gitHub: 'https://github.com/Eduardo347387/administrador-gasto',
+      liveSite: 'https://admin-gasto.netlify.app/'
+    } 
   ]
+
 }
