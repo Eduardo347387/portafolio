@@ -3,7 +3,7 @@ import { networks, project, skills } from 'src/app/interfaces/data';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.scss']
+  styleUrls: []
 })
 export class ContentComponent {
 
