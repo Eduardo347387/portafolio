@@ -131,8 +131,5 @@ export class ContentComponent {
     } 
   ]
 
-  reloadPage(url: string) {
-    window.location.reload();
-    window.location.href = url // true para forzar la recarga desde el servidor
-  }
+
 }
