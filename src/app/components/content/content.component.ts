@@ -131,8 +131,8 @@ export class ContentComponent {
     } 
   ]
 
-  liveSite(url: string) {
-    console.log(url)
-     window.open(url, '_blank');
+  reloadPage(url: string) {
+    window.location.reload();
+    window.location.href = url // true para forzar la recarga desde el servidor
   }
 }
